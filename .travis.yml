@@ -47,6 +47,7 @@ deploy:
 script:
   # quick build break
   - exit 1
+  - exit 1
   # Check versions
   - cppcheck --version
   # Setup standard permissive build
